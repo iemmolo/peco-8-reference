@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 07 — Entities (Tables of Tables)
 
 **What you'll learn:** Managing enemies, bullets, pickups, and any group of objects using tables of tables — the core pattern for almost every PICO-8 game.
 
-**Prerequisites:** [06-platformer.md](06-platformer.md), and Lua tables from [lua/basics.md](../lua/basics.md)
+**Prerequisites:** [[06-platformer|06 - Platformer Physics]], and Lua tables from [[basics|Lua Basics]]
 
 ---
 
@@ -432,4 +435,4 @@ end
 - AABB collision: check if two rectangles overlap
 - Separate collision functions keep the code clean
 
-**Next:** [08-procedural.md](08-procedural.md) — random terrain, caves, dungeons, and noise.
+**Next:** [[08-procedural|08 - Procedural Generation]] — random terrain, caves, dungeons, and noise.

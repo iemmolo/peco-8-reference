@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 06 — Platformer Physics
 
 **What you'll learn:** Gravity, jumping, proper tile collision (X and Y separately), the on_ground flag, and common platformer feel improvements.
 
-**Prerequisites:** [04-tilemaps-camera.md](04-tilemaps-camera.md)
+**Prerequisites:** [[04-tilemaps-camera|04 - Tilemaps & Camera]]
 
 ---
 
@@ -369,4 +372,4 @@ end
 - Short hop: cut velocity when jump button released early
 - Coyote time: grace frames after walking off a ledge
 
-**Next:** [07-entities.md](07-entities.md) — enemies, bullets, and managing many objects with tables.
+**Next:** [[07-entities|07 - Entities]] — enemies, bullets, and managing many objects with tables.

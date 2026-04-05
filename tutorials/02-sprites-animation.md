@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 02 — Sprites & Animation
 
 **What you'll learn:** Drawing sprites, animating them with multiple frames, flipping for direction, transparency, and multi-tile sprites.
 
-**Prerequisites:** [01-hello-pico8.md](01-hello-pico8.md)
+**Prerequisites:** [[01-hello-pico8|01 - Hello PICO-8]]
 
 ---
 
@@ -31,7 +34,8 @@ end
 
 Sprite #1 is whatever you drew in slot 1 of the sprite editor.
 
-> **Make sure you have something in sprite #1 before running!** Draw a simple character — a face, a box with eyes, anything. Sprite #0 is the eraser — leave it empty.
+> [!WARNING]
+> Make sure you have something in sprite #1 before running! Draw a simple character — a face, a box with eyes, anything. Sprite #0 is the eraser — leave it empty.
 
 ---
 
@@ -341,4 +345,4 @@ end
 - Color 0 (black) is transparent by default — use `palt()` to change this
 - `pal()` swaps colors for effects, reset with `pal()` after
 
-**Next:** [03-input-movement.md](03-input-movement.md) — proper input handling and movement systems.
+**Next:** [[03-input-movement|03 - Input & Movement]] — proper input handling and movement systems.

@@ -1,3 +1,6 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 09 — Polish
 
 **What you'll learn:** Sound effects, music, game states (menu/play/game-over), particles, screen shake, save data, and publishing tips.

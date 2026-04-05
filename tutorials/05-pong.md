@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 05 — Pong (Your First Full Game)
 
 **What you'll learn:** Building a complete game from scratch — game logic, collision, score, lives, and a restart screen.
 
-**Prerequisites:** [03-input-movement.md](03-input-movement.md)
+**Prerequisites:** [[03-input-movement|03 - Input & Movement]]
 
 This tutorial is adapted from the pico-guide fanzine by @TheRealMolen. A classic first game — it's simple enough to finish in one sitting but teaches every core concept you need.
 
@@ -119,7 +122,8 @@ function bounceball()
 end
 ```
 
-> **Make a bounce sound:** Open the sound editor, go to SFX #0. Make a short, punchy sound — a single note with a slight drop (effect #3). Doesn't have to be perfect, just something audible.
+> [!TIP]
+> Open the sound editor, go to SFX #0. Make a short, punchy sound — a single note with a slight drop (effect #3). Doesn't have to be perfect, just something audible.
 
 **Save and run.** The ball bounces off three walls and eventually falls off the bottom.
 
@@ -384,4 +388,4 @@ end
 - `sfx(n)` to play sounds at key moments
 - Short print messages for UI
 
-**Next:** [06-platformer.md](06-platformer.md) — gravity, jumping, and proper tile-based physics.
+**Next:** [[06-platformer|06 - Platformer Physics]] — gravity, jumping, and proper tile-based physics.

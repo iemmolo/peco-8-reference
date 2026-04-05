@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 03 — Input & Movement
 
 **What you'll learn:** btn() vs btnp(), velocity, friction, acceleration, screen bounds, and wrapping.
 
-**Prerequisites:** [02-sprites-animation.md](02-sprites-animation.md)
+**Prerequisites:** [[02-sprites-animation|02 - Sprites & Animation]]
 
 ---
 
@@ -241,7 +244,8 @@ function _draw()
 end
 ```
 
-> **Note on sin/cos:** PICO-8 angles are 0..1 (not degrees or radians). `cos(0)` points right. `sin()` is y-inverted, so we negate it when moving up the screen.
+> [!NOTE]
+> PICO-8 angles are 0..1 (not degrees or radians). `cos(0)` points right. `sin()` is y-inverted, so we negate it when moving up the screen.
 
 ---
 
@@ -349,4 +353,4 @@ if btn(1) then px = min(120, px + 2) end
 - Normalize diagonal movement with `* 0.707`
 - Cooldown timers for shooting rate
 
-**Next:** [04-tilemaps-camera.md](04-tilemaps-camera.md) — drawing the map, making your player walk through it, and scrolling the camera.
+**Next:** [[04-tilemaps-camera|04 - Tilemaps & Camera]] — drawing the map, making your player walk through it, and scrolling the camera.

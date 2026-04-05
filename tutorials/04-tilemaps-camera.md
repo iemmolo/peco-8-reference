@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 04 — Tilemaps & Camera
 
 **What you'll learn:** Drawing the map, moving a player through a tile world, camera scrolling, tile collision, and multi-screen rooms.
 
-**Prerequisites:** [03-input-movement.md](03-input-movement.md)
+**Prerequisites:** [[03-input-movement|03 - Input & Movement]]
 
 ---
 
@@ -349,4 +352,4 @@ The last argument to `map()` is a bitmask — only tiles with matching flags are
 - Move X and Y separately so you can slide along walls
 - Room system: offset map draw by `room_x * 16, room_y * 16`
 
-**Next:** [05-pong.md](05-pong.md) — build a full game from scratch.
+**Next:** [[05-pong|05 - Pong]] — build a full game from scratch.

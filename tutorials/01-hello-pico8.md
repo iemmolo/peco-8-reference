@@ -1,3 +1,6 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 01 — Hello PICO-8
 
 **What you'll learn:** The game loop, drawing shapes and text, colors, variables.
@@ -255,4 +258,4 @@ Try these on your own:
 - Variables change between frames to create movement
 - `time()` gives you seconds for animation
 
-**Next:** [02-sprites-animation.md](02-sprites-animation.md) — drawing sprites and making them animate.
+**Next:** [[02-sprites-animation|02 - Sprites & Animation]] — drawing sprites and making them animate.

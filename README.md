@@ -2,8 +2,8 @@
 
 Your complete offline reference for PICO-8 development on Raspberry Pi 4B.
 
-> **Tip:** View these files with `glow` for best experience.
-> Install: `sudo apt install glow` then run `glow` in this directory.
+> [!TIP]
+> Viewing in Obsidian: open this folder as a vault. For Pi/terminal use: `sudo apt install glow` then run `glow` in this directory.
 
 ---
 
@@ -22,15 +22,15 @@ ALT+←→   switch between editors
 
 | File | Topic |
 |------|-------|
-| [tutorials/01-hello-pico8.md](tutorials/01-hello-pico8.md) | Game loop, shapes, colors |
-| [tutorials/02-sprites-animation.md](tutorials/02-sprites-animation.md) | Sprites, animation frames, flip |
-| [tutorials/03-input-movement.md](tutorials/03-input-movement.md) | btn(), velocity, friction |
-| [tutorials/04-tilemaps-camera.md](tutorials/04-tilemaps-camera.md) | map(), camera, tile collision |
-| [tutorials/05-pong.md](tutorials/05-pong.md) | Build Pong step by step |
-| [tutorials/06-platformer.md](tutorials/06-platformer.md) | Gravity, jump, physics |
-| [tutorials/07-entities.md](tutorials/07-entities.md) | Enemies, bullets, pickups |
-| [tutorials/08-procedural.md](tutorials/08-procedural.md) | Random terrain, caves, dungeons |
-| [tutorials/09-polish.md](tutorials/09-polish.md) | Sound, game states, particles, saving |
+| [[01-hello-pico8\|01 - Hello PICO-8]] | Game loop, shapes, colors |
+| [[02-sprites-animation\|02 - Sprites & Animation]] | Sprites, animation frames, flip |
+| [[03-input-movement\|03 - Input & Movement]] | btn(), velocity, friction |
+| [[04-tilemaps-camera\|04 - Tilemaps & Camera]] | map(), camera, tile collision |
+| [[05-pong\|05 - Pong]] | Build Pong step by step |
+| [[06-platformer\|06 - Platformer Physics]] | Gravity, jump, physics |
+| [[07-entities\|07 - Entities]] | Enemies, bullets, pickups |
+| [[08-procedural\|08 - Procedural Generation]] | Random terrain, caves, dungeons |
+| [[09-polish\|09 - Polish]] | Sound, game states, particles, saving |
 
 ---
 
@@ -39,47 +39,47 @@ ALT+←→   switch between editors
 ### Editors
 | File | Topic |
 |------|-------|
-| [editor/shortcuts.md](editor/shortcuts.md) | All keyboard shortcuts |
-| [editor/sprite-editor.md](editor/sprite-editor.md) | Drawing sprites & flags |
-| [editor/map-editor.md](editor/map-editor.md) | Building tilemaps |
-| [editor/sound-music.md](editor/sound-music.md) | SFX & music tracker |
+| [[shortcuts\|Shortcuts]] | All keyboard shortcuts |
+| [[sprite-editor\|Sprite Editor]] | Drawing sprites & flags |
+| [[map-editor\|Map Editor]] | Building tilemaps |
+| [[sound-music\|Sound & Music]] | SFX & music tracker |
 
 ### Lua
 | File | Topic |
 |------|-------|
-| [lua/basics.md](lua/basics.md) | Lua syntax crash course |
+| [[basics\|Lua Basics]] | Lua syntax crash course |
 
 ### API Reference
 | File | Topic |
 |------|-------|
-| [api/graphics.md](api/graphics.md) | Drawing, sprites, palette, camera |
-| [api/input.md](api/input.md) | Buttons, controllers, mapping |
-| [api/math.md](api/math.md) | Math functions & operators |
-| [api/map.md](api/map.md) | Tilemap functions |
-| [api/audio.md](api/audio.md) | SFX & music playback |
-| [api/system.md](api/system.md) | stat(), time(), cartdata, memory |
+| [[graphics\|Graphics API]] | Drawing, sprites, palette, camera |
+| [[input\|Input API]] | Buttons, controllers, mapping |
+| [[math\|Math API]] | Math functions & operators |
+| [[map\|Map API]] | Tilemap functions |
+| [[audio\|Audio API]] | SFX & music playback |
+| [[system\|System API]] | stat(), time(), cartdata, memory |
 
 ### Snippets (copy-paste ready)
 | File | Topic |
 |------|-------|
-| [snippets/movement.md](snippets/movement.md) | 4-dir, 8-dir, friction, acceleration |
-| [snippets/collision.md](snippets/collision.md) | AABB box, tile collision |
-| [snippets/camera.md](snippets/camera.md) | Scrolling, deadzone, screen shake |
-| [snippets/particles.md](snippets/particles.md) | Simple particle system |
-| [snippets/math-helpers.md](snippets/math-helpers.md) | lerp, clamp, distance, angle |
+| [[movement\|Movement]] | 4-dir, 8-dir, friction, acceleration |
+| [[collision\|Collision]] | AABB box, tile collision |
+| [[camera\|Camera]] | Scrolling, deadzone, screen shake |
+| [[particles\|Particles]] | Simple particle system |
+| [[math-helpers\|Math Helpers]] | lerp, clamp, distance, angle |
 
 ### Game Examples (full annotated cartridges)
 | File | Topic |
 |------|-------|
-| [games/platformer.md](games/platformer.md) | Jump, gravity, tile collision |
-| [games/side-scroller.md](games/side-scroller.md) | Scrolling world, parallax |
-| [games/top-down-rpg.md](games/top-down-rpg.md) | Top-down movement, rooms |
-| [games/shooter.md](games/shooter.md) | Bullets, enemies, score |
+| [[platformer\|Platformer]] | Jump, gravity, tile collision |
+| [[side-scroller\|Side Scroller]] | Scrolling world, parallax |
+| [[top-down-rpg\|Top-Down RPG]] | Top-down movement, rooms |
+| [[shooter\|Shooter]] | Bullets, enemies, score |
 
 ### One-Page Reference
 | File | Topic |
 |------|-------|
-| [cheatsheet.md](cheatsheet.md) | Everything on one page |
+| [[cheatsheet\|Cheatsheet]] | Everything on one page |
 
 ---
 

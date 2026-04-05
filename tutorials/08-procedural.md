@@ -1,8 +1,11 @@
+---
+tags: [pico8, tutorial]
+---
 # Tutorial 08 — Procedural Generation
 
 **What you'll learn:** How to generate random terrain, caves, dungeons, and backgrounds. Using `rnd()` and `srand()` to create worlds that are different every run.
 
-**Prerequisites:** [07-entities.md](07-entities.md)
+**Prerequisites:** [[07-entities|07 - Entities]]
 
 ---
 
@@ -357,4 +360,4 @@ end
 - `mset()` writes to the map at runtime
 - Use `srand(fixed)` / `srand(time())` to bracket decorative drawing
 
-**Next:** [09-polish.md](09-polish.md) — sound effects, music, game states, particles, and save data.
+**Next:** [[09-polish|09 - Polish]] — sound effects, music, game states, particles, and save data.
