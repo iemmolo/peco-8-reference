@@ -18,7 +18,23 @@ ALT+←→   switch between editors
 
 ---
 
-## Contents
+## Tutorials (Start Here)
+
+| File | Topic |
+|------|-------|
+| [tutorials/01-hello-pico8.md](tutorials/01-hello-pico8.md) | Game loop, shapes, colors |
+| [tutorials/02-sprites-animation.md](tutorials/02-sprites-animation.md) | Sprites, animation frames, flip |
+| [tutorials/03-input-movement.md](tutorials/03-input-movement.md) | btn(), velocity, friction |
+| [tutorials/04-tilemaps-camera.md](tutorials/04-tilemaps-camera.md) | map(), camera, tile collision |
+| [tutorials/05-pong.md](tutorials/05-pong.md) | Build Pong step by step |
+| [tutorials/06-platformer.md](tutorials/06-platformer.md) | Gravity, jump, physics |
+| [tutorials/07-entities.md](tutorials/07-entities.md) | Enemies, bullets, pickups |
+| [tutorials/08-procedural.md](tutorials/08-procedural.md) | Random terrain, caves, dungeons |
+| [tutorials/09-polish.md](tutorials/09-polish.md) | Sound, game states, particles, saving |
+
+---
+
+## Reference
 
 ### Editors
 | File | Topic |
